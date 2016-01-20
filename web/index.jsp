@@ -13,5 +13,14 @@
     </head>
     <body>
         <h1>Bienvenido, Ingresa tus datos.</h1>
+        <p>Datos de autenticacion</p>
+        <%
+            //este bloque se le llama scriptlet y acepta código Java
+            
+            float x=12.5f;
+            float y=45;
+            float z=x+y;
+    out.println("La suma es:"+z);
+%>
     </body>
 </html>
